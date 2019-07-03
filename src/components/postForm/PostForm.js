@@ -29,7 +29,10 @@ class PostForm extends Component {
                 'Content-Type': 'application/json'
             }
         }).then(res => res.json())
-        .then(response => console.log('Success:', JSON.stringify(response)))
+        .then(response => {
+            alert('Success: ' + JSON.stringify(response));
+            this.props.history.push('/');
+        })
         .catch(error => console.error('Error:', error));
     }
 
