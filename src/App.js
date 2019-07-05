@@ -4,13 +4,13 @@ import Banner from './components/banner/Banner';
 import Cards from './components/cards/Cards';
 import PostForm from './components/postForm/PostForm';
 import Footer from './components/footer/Footer';
-import {BrowserRouter, Route} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 
 class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Header/>
           <main className='main'>
@@ -20,7 +20,7 @@ class App extends Component {
           </main>
           <Footer/>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
