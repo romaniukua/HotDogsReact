@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hotdogs-react/static/css/main.3b9bc8a8.chunk.css",
+    "main.js": "/hotdogs-react/static/js/main.38468a5c.chunk.js",
+    "main.js.map": "/hotdogs-react/static/js/main.38468a5c.chunk.js.map",
+    "runtime~main.js": "/hotdogs-react/static/js/runtime~main.44b0def9.js",
+    "runtime~main.js.map": "/hotdogs-react/static/js/runtime~main.44b0def9.js.map",
+    "static/js/2.662c746a.chunk.js": "/hotdogs-react/static/js/2.662c746a.chunk.js",
+    "static/js/2.662c746a.chunk.js.map": "/hotdogs-react/static/js/2.662c746a.chunk.js.map",
+    "index.html": "/hotdogs-react/index.html",
+    "precache-manifest.ea2498adf8782090cb47bc0cec08c1f5.js": "/hotdogs-react/precache-manifest.ea2498adf8782090cb47bc0cec08c1f5.js",
+    "service-worker.js": "/hotdogs-react/service-worker.js",
+    "static/css/main.3b9bc8a8.chunk.css.map": "/hotdogs-react/static/css/main.3b9bc8a8.chunk.css.map",
+    "static/media/index.scss": "/hotdogs-react/static/media/head_banner.bbae0844.png",
+    "static/media/hotdog.svg": "/hotdogs-react/static/media/hotdog.4acd556c.svg"
+  }
+}
