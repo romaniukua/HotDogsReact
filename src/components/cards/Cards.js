@@ -11,8 +11,10 @@ class Cards extends Component {
         fetch('https://formula-test-api.herokuapp.com/menu')
             .then(res => res.json())
             .then(data => {
-                this.setState({
-                    cards: this.filterByExpiration(data)
+                this.setState(() => {
+                    return {
+                        cards: this.filterByExpiration(data)
+                    }
                 });
             })
             .catch(error => {
